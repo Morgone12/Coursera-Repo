@@ -56,6 +56,32 @@
   }
   
   .container {
-    margin-left: 14px;
+    margin-left: 7%;
   }
+}
+
+@media (min-width:768px) AND (max-width: 991px) {
+
+.col-md-6 {
+    float: left;
+    width: 46%;
+}
+
+.col-md-7 {
+    float: left;
+    width: 95%;
+    height: 120px;
+}
+}
+
+@media (max-width:767px){
+
+    .container{
+        margin-left: 22%;
+    }
+
+    .col-sd-12 {
+       float: left; 
+       width: 65%;
+    }
 }
